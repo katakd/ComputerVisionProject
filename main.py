@@ -10,7 +10,7 @@ args = parser.parse_args()
 methods = {
     "fixmath": "bash fixmatch.sh",
     "noisy student": "bash noisy.sh",
-    "pseudo label": "",
+    "pseudo label": "bash pseudo.sh",
     "pi": "bash pi.sh"
 }
 assert args.method in methods, f"Method {args.method} not implemented in {methods}"
