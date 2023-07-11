@@ -1,0 +1,16 @@
+{
+    "dataset_name":"cifar10",
+    "dataset_label_frag": 0.1,
+    "dataset_seed":41,
+    "dataset_validation_frag":0.1,
+    "model_epoch":20,
+    "optimizer_learning_rate": 2e-5,
+    "optimizer_weight_decay": 1e-1,
+    "model_batch_size":64,
+    "loss_margin": 0.5,
+    "logging_file": "log.txt",
+    "checkpoint": "checkpoint.pt",
+    "pseudo_thres": 0.86,
+    "logging_file_pseudo": "log1.txt",
+    "model_path": "model.pt"
+}
