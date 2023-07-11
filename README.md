@@ -14,7 +14,5 @@ We implement these following methods:
 python3 main.py --method <method_name>
 ```
 
-with `method_name` is one of [`fixmatch`, `noisy`, `pi`]
-
-* For pseudo label: please see the notebook in folder `pseudo` for details
+with `method_name` is one of [`fixmatch`, `noisy`, `pi`,`pseudo`]
 
